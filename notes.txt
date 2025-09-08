@@ -1,0 +1,37 @@
+September 8th
+GIT --> Client Software , its to enable tracking
+Github --> Service provider, its a storage for storing the code
+
+Workflow:
+1. create gitbut account ;
+	create repositry (project + version history) --> Remote repository 
+2. write code on the local machine
+	cloning: copy of the remote repository in the machine 
+		saved copy of remote repository is called local repository
+			Working copy - start working here
+			| (staging / adding changes)
+			Staging copy
+			| (semi finalized) - can undo the code back to the working copy, called as unstaging
+			local copy 
+			| commit changes , this is the final stage of finalzing code to local repository, aka commit the code to local repository
+	Write code --> stage code --> commit code ( local machine repository)
+3. Pushing the code to remote repository ( in git hub) 
+
+Setting up in gitbash, authentication from local machine to github
+	git config --global user.name dhirajmedapati
+	git config --global user.email dhiraj.medapati@gmail.com
+	
+Low level languages - binary language - machine interaction language 
+
+Python is a high level language, for developing applications, used for software level , application level 
+	our code will be converted to ascii language to binary
+General purpose language --> can be used in various domains, not just 1 domain, can develop desktop apps, web apps, API, automation scripts, etc
+Domain specific language --> like sql, we can do only to code for DB, but not for anything else
+
+Approach to a programming solution is known as programming paradigm , different styles to handle a solution, python is known for being multi paradigm 
+	Imperative approach --> how to do something in the code ; object oriented approach( widely used in programming)
+	Declarative approach --> what to do, rather than how to do ; functional style programming ( data oriented applications)
+	
+Python is a dynamic language, no need to define data types (type checked) , it automatically detects the type, unless specified otherwise, its called typecasting where we predefine things and stop the auto detecting the type itself. 
+
+
