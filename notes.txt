@@ -35,3 +35,42 @@ Approach to a programming solution is known as programming paradigm , different 
 Python is a dynamic language, no need to define data types (type checked) , it automatically detects the type, unless specified otherwise, its called typecasting where we predefine things and stop the auto detecting the type itself. 
 
 
+September 9th
+=============
+
+	-> Write Code and Develop Apps
+		-> Script Mode (100% We Use) (IDE - Keep Code in Files)
+		
+		-> Command Line Mode (CLI) Use Command Prompt (CMD) (inside python shell) - 
+			Code is temporary (Used To Do Quick Checks)
+
+	-> Learning Python (programming language)
+
+	-> Just like english, has alphabets and we forms words and sentences, 
+		in similar way we are gonna use python
+
+	-> English language has 26 alphabets (abcd.....z)
+
+	-> python as a programming language has 35 keywords 
+
+	-> Syntax : Rules & Guidelines 
+
+		-> English 
+			-> today i take class for 3 PM and 4:30 PM (invalid)
+			-> Today i'm going take the class from 3 PM to 4:30 PM (valid)
+
+	-> Keywords : Predefined words, which holds some special meaning to python interpreter
+
+	-> List Of Keywords :  https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+		False      await      else       import     pass
+		None       break      except     in         raise
+		True       class      finally    is         return
+		and        continue   for        lambda     try
+		as         def        from       nonlocal   while
+		assert     del        global     not        with
+		async      elif       if         or         yield
+
+	-> Keywords cannot be identifiers(name)
+
+	-> Keywords + Syntax = Application / Program
