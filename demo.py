@@ -20,3 +20,26 @@ print(hello)
 
 classes = "10th Standard" # SyntaxError: invalid syntax
 print(classes) 
+
+data = "hello"
+print(data)
+_data = "python"
+print(_data)
+# $data = "language" # SyntaxError: invalid syntax
+# 2day_data = "python" # SyntaxError: invalid decimal literal
+
+a = 20
+A = 30
+print(a)
+print(A)
+
+# Define Student Data
+# Bad way of using identifiers
+x = "Ravi"
+y = 30
+z = "Python"
+
+# Good way of using identifiers (Recommended)
+student_firstname = "Ravi"
+student_age = 30
+enrolled_course = "Python"
