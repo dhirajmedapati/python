@@ -135,4 +135,26 @@ September 9th
 
 		-> Multi paradigm
 
-		
+	-> Variables
+
+		-> Variables are names for memory(RAM) locations
+
+		-> Variables Allow You to
+
+			-> Assign Data
+			-> Retrieve Data
+			-> Manipulate Data (If Required)
+
+		-> Syntax 
+
+			-> variable_name = value
+			   student_age = 30
+			   = is called Assignment Operator	
+
+		-> NOTE : In Python, the type of variable can change during the execution
+
+		-> NOTE : A function does a task
+
+		-> type() : Used to specify the data type for a variable
+
+		-> id() : used to show the memory address of a variable
