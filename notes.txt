@@ -74,3 +74,65 @@ September 9th
 	-> Keywords cannot be identifiers(name)
 
 	-> Keywords + Syntax = Application / Program
+
+	-> Identifiers : In Python an identifier is the name used to identify
+
+		-> variable
+		-> function
+		-> class
+		-> methods
+		-> modules
+		-> etc
+
+	-> Rules for Identifiers (naming)
+
+		-> Can Contain
+
+			-> letters (a-z, A-Z)
+			-> digits (0-9)
+			-> underscore (_)
+
+		-> Must Start with
+
+			-> A letter (a-z, A-Z)
+			-> underscore (_)	
+
+		-> NOTE : Cannot be keywords, Cannot Start with Digits, Case Sensitive
+				name, Name, NAME (all the different)
+
+	-> Why Python / Key Features Of Python
+
+		-> It's EASY (**)
+
+			-> Syntax 
+			-> Execute
+			-> Simplicity Of Language (space for indentation)
+
+		-> Fewer Line Of Code (**)
+
+			-> Addition Program in Python it's 3 lines
+			-> Addition Program in Java it's 8 lines
+
+		-> Interpreted (Python) vs Compiled (Java) (**)
+
+			-> Performance(execution speed) -> FASTER -> Compiled 
+
+			-> Performance(execution speed) -> SLOWER -> Interpreted
+
+		-> Python is best Prototype Language
+
+			-> Python Development Speed  - FASTEST
+
+				-> Project To Build Custom Requirement : 6 Weeks
+
+			-> Java Development Speed  - SLOWER
+
+				-> Project To Build Custom Requirement : 3 Months
+
+		-> Python is Dynamic typed (**)
+
+		-> Vast Libraries from Community & Open Sources 
+
+		-> Multi paradigm
+
+		
