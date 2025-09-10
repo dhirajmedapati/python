@@ -158,3 +158,99 @@ September 9th
 		-> type() : Used to specify the data type for a variable
 
 		-> id() : used to show the memory address of a variable
+
+September 10th
+==============
+
+-> Output the variables using print()
+
+-> Concatenation : Joining Strings using + operator
+
+	-> + : Concatenation (Strings)
+	-> + : Addition (Numeric)
+
+	-> NOTE : Polymorphism (Multiple Forms)
+
+-> Interpolation : Replacing Placeholders with Actual Values
+
+	-> Supports only from Python 3 onwards
+	-> We use {} with f-strings (string formatted literals)
+
+-> Operators
+
+	-> Special symbols, that perform operations on Variables and their Values
+
+	-> Operators Categorization
+
+		-> Arithmetic Operators 
+
+			-> + - * / % 
+			-> // : floor division (same as division, but round of value)
+			-> ** : exponentiation (for powers)
+		
+		-> Compound Assignment Operators
+
+			-> Combine Arithmetic Operators with Assignment Operator(=)
+			-> Used for concise code(short hand code)
+
+			-> x = 10
+			-> x = x + 5
+
+			-> x += 5 
+			-> += *= -= etc
+		
+		-> Comparison Operators 
+
+			-> Used to compare values 
+			-> O/P is True/False (boolean)
+
+			-> Primarily used with condition
+
+				-> == (compare values equal )
+				-> != (not equal to)
+				-> > 
+				-> <
+				-> >=
+				-> <=
+
+		-> Logical Operators 
+
+			-> Used to combine multiple conditions
+			-> O/P is True/False (boolean)
+
+				-> and
+				-> or
+				-> not
+
+				X       Y       X and Y    X or Y    not X    not Y
+                T       T           T         T         F       F
+                T       F           F         T         F       T
+                F       T           F         T         T       F
+                F       F           F         F         T       T     
+
+
+		-> Membership Operators 
+
+			-> Used if a sequence is present 
+
+				-> in : return True if specified input is in given sequence 
+				-> not in : return True if specified input is not in given sequence 
+
+		-> Identity Operators
+
+			-> Used to compare objects (memory)
+
+				-> == used to compare values
+
+			-> is : return True if both objects are same
+			-> is not : return True if both objects are not same
+
+		-> Bitwise Operators 
+
+			-> Used in low level 
+
+			-> Used to perform Comparison on BINARY LEVEL (010101001)
+
+				-> AND(&) - Sets each bit to 1 if both bits are 1
+                -> OR (|)- Sets each bit to 1 if one of bits is 1
+
