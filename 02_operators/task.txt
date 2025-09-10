@@ -1,0 +1,35 @@
+# TASK
+
+# Student Management System
+
+# In this project, you will simulate a simple system that 
+stores and processes a student’s academic and attendance details. 
+
+Store student information like:
+    Student ID 
+    Student Name 
+    Student Age 
+    Quiz Score
+    Assignment Score
+    Exam Score
+    Student Attendance
+
+Calculate:
+   Total score
+   Average score
+ 
+Determine:
+    If the student is passing based on average score 75 or above
+
+Update:
+    Attendance (simulate an additional attended session -> increment )
+
+Award eligibility:
+    High attendance i.e 90 or above
+    Also Student should pass 
+
+Display results
+    Student Information Section: ID, Name, Age
+    Academic Performance Section: Individual scores, total, and average
+    Status Section: Passing status and award eligibility
+
