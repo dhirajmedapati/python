@@ -62,3 +62,67 @@ Variables:
 In python the type of variable can change during execution
 A function does a task
 type () : used to specify the data type for a variable
+
+10th September
+==============
+
+--> output can be derived using print ()
+-> concatenation : joining strings using + operator
+	+ can be used to join strings and add numerics depending on the defined variable
+	we cannot add a string and number in a single output using just the operators 
+
+Interpolation: replacing placeholders with actual values
+	supports only from python 3 onwards
+	we use {} with f-strings , aka string formatted lierals
+
+We can define multiple variables / numerics using , in  single line, but LHS should be equal to RHS
+Example: x,y,z = 10,20,30
+
+Multiple values can be assigned to a single variable using = 
+ex: a = b = c = 10
+
+--> Operators
+	Special symbols that perform operations on variables and values. 
+	Operator categorization
+		Arthmetic operators: mathematical operations ; + - * / %
+		// floor division but rounds of the value to the lowest integer 
+		** exponential , for powers
+	Compound assignment operators
+		combine arthemetic operators with assignment operator (=)
+		used for concise code (short hand code)
+		+= *= -= /= 
+	Comparison operators
+		used to compare values
+		output is True or false (boolean)
+		Primarily used with condition ; like yes or no statements kind
+
+		== (to compare values)
+		!= (not equal to)
+		>
+		<
+		>=
+		<=
+	
+	Logical Operators
+		used to combine multiple conditions
+
+		and , or, not
+
+	Membership operators
+		used if a squence is present
+			in: return true if specified input is in given sequence
+			not in: return true if specified input in not in given sequence
+	
+	Identity Operators
+		used to compare objects (memory)
+
+			== used to compare values
+		is: returns true if both objects are same
+		is not: returns true is both obects are not same
+	
+	Bitwise operators
+		used in low level languages
+		they perform binary level comparison (0 1)
+		they use the truth table for this, AND OR XOR etc
+		AND --> & 
+		OR --> |
