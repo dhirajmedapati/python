@@ -126,3 +126,71 @@ ex: a = b = c = 10
 		they use the truth table for this, AND OR XOR etc
 		AND --> & 
 		OR --> |
+
+11th September
+
+--> Data types
+
+datatypes are categories that defines a variable which will tell us what kind of data it can holds
+
+--> Number types
+	int : whole numbers, negative numbers, integers
+	float : decimal numbers, 1.5, 10.0
+	complex: a+ib (i is imaginary --> in python its j, not i)
+
+--> Text type
+	--> str: string is a sequence of characters enclosed in a ""
+
+--> Boolean type
+	--> bool: represents true / false
+
+--> sequence type
+	--> List: store multiple elements, seperated with , and delcared inside []
+	--> tuple: store multiple elemends seperated with , and declared inside ()
+	--> set: store multiple elements sperated with , and delcared inside {}
+--> Mapping type
+	--> dictionary : stores key value pairs (each pair is called item) seperated with , and declared inside {}
+		example: emp_info = {"name": "dhiraj", "age":25,"city", "hyd"}
+--> None type
+	--> Nothing i.e represents No value / Absensce of Nothing
+		x = None ; this type is called NoneType
+--> User defined data types
+	--> user can define their own data types based on requirements
+
+Type Conversion
+	--> convert one data type to another data type automatically 
+
+Type Casting
+	--> convert one data type to another data type manually
+
+--> Control structures
+	used to control the flow of execution
+
+	--> types
+		--> Conditional statements , Decision making statements
+
+		--> looping statements , Iteration statements
+
+		--> Branching statements , Jump statements
+
+	Conditional statements (decision making statements)
+		--> used to evaluate a condition and execute one block of code if the evalation is true
+			and execute another block of code is the evaluation is false
+		--> Types of conditional statements
+			--> if Statement: run block of code if the condition is true
+			--> if else statement: run block of code if the condition is true 
+				and run another block of code if the condition if false
+			--> elif ladder: runs multiple if else blocks
+			--> match case statement: Alternative to if else, when you have multiple conditions
+				for a single variable ; this started from python 3
+Note: Indentation refers to spaces at the begining of the line that defines code blocks(conditionals, loops, classes etc)
+Indentation has rules
+either use a tab or spaces, but not both
+	--> how many spaces (python recommended spaces are 4)
+all lines in the same block must have same Indentation level
+
+Note: to make apps more dynamic, giving the user to give input
+	--> input() : function used to take input from the keyboard as a string
+
+--> ternary operator: allows you to write if else in concise form; can only be used for single expression
+	value_if_true if condition else value_if_false
