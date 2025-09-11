@@ -254,3 +254,97 @@ September 10th
 				-> AND(&) - Sets each bit to 1 if both bits are 1
                 -> OR (|)- Sets each bit to 1 if one of bits is 1
 
+September 11th
+==============
+
+-> Datatype
+
+	-> Data types are Categories that define kind of data a variable can hold
+
+	-> Numeric Types 
+
+		-> int : whole numbers 1,2,-10 etc
+		-> float : decimal numbers 1.5, 3.5 10.0 etc
+		-> complex : a + ib (i is imaginary -> in python it's j)
+				   c = 3 + 5j
+	
+	-> Text Type 
+
+		-> str : string is a sequence of characters enclosed in "" or ''
+
+	-> Boolean Type
+
+		-> bool : Represents True / False	
+
+	-> Sequence Type 
+
+		-> List : Store Multiple elements, separated with , and declared inside []
+
+		-> Tuple : Store Multiple elements, separated with , and declared inside ()
+
+		-> Set : Store Multiple elements, separated with , and declared inside {}
+
+	-> Mapping Type
+
+		-> Dictionary : Stores Key Value pairs (each pair is called item) 
+			separated with , and declared inside {}
+	
+	-> None Type
+
+		-> Nothing i.e represents No value / Absence of value
+
+	-> NOTE : predefined Datatypes are part of python library 
+
+	-> NOTE : User defined Datatypes can be created by user/developer based on requirements
+
+	-> Type Conversion
+
+		-> Convert One Datatype to another Datatype automatically
+
+	-> Type Casting
+
+		-> Convert One Datatype to another Datatype Manually
+
+	
+	-> Control Structures 
+
+		-> Used to control the flow of execution 
+
+		-> Types 
+
+			-> Conditional Statements (Decision Making Statements)
+
+			-> Looping Statements (Iteration Statements)
+
+			-> Branching Statements (Jump Statements)	
+		
+		-> Conditional Statements (Decision Making Statements)
+
+			-> Used to evaluate condition, execute one block of code if 
+				the evaluation is True and execute another block of code 
+				if evaluation is False
+
+			-> Types Of Conditional Statements 
+
+				-> if Statement : Run block of code, if the condition is True
+				-> if else Statement : Run one block of code, if the condition is True and
+					Run another block of code, if the condition is False
+				-> elif ladder : Runs multiple if else blocks 
+				-> match-case Statement : Alternative to  if else, when you have multiple
+					conditions for a single variable (introduced from python 3)
+
+			-> NOTE : indentation refers to spaces at the beginning if line
+					that define code blocks (conditionals, loops, classes etc) 
+
+					-> indentation Rules
+					   
+					   -> Either use a tab or spaces , but not both
+					   		-> how many spaces (at least 1) -> python recommended is 4 spaces
+					   -> All lines in the same block must have same indentation level
+			
+			-> NOTE : To make apps more dynamic i.e giving the user to give input 
+
+				-> input() : function used to take input from keyboard as a string 
+			
+			-> Ternary Operator : Allows you to write if-else in concise form
+			value_if_true if condition else value_if_false
