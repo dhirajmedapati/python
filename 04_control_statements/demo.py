@@ -103,7 +103,7 @@ else:
 print(category) 
 
 # match case style
-age = 25
+age = int(input("Enter Age "))
 
 match age:
    case 0 | 1 | 2 | 3 | 4:
