@@ -348,3 +348,9 @@ September 11th
 			
 			-> Ternary Operator : Allows you to write if-else in concise form
 			value_if_true if condition else value_if_false
+
+12th September
+================
+
+-> elif ladder used for multiple condition checks
+	

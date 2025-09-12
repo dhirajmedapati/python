@@ -71,3 +71,15 @@ age = int(input("Enter Your Age: "))
 # value_if_true if condition else value_if_false
 status = "You can vote" if age >= 18 else "You cannot vote"
 print(status)
+
+#elif
+
+marks = int(input("enter your marks "))
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")
+elif marks >=60:
+    print("C")
+else:
+    print("fail")
