@@ -194,3 +194,45 @@ Note: to make apps more dynamic, giving the user to give input
 
 --> ternary operator: allows you to write if else in concise form; can only be used for single expression
 	value_if_true if condition else value_if_false
+
+	12th September
+================
+
+-> elif ladder used for multiple condition checks
+-> match case , it is introduced in python 3.1 , used for multi conditions 
+
+-> Nested conditionals
+		Conditionals inside conditionals
+-> looping statements
+	iterative statements , one after another. 
+	used to execute a block of code repeatedly based on a condition 
+	->while loop ; runs a block of code as long as the condition is true, 
+			used when we do not know no. of iterations in advance
+	-> for loop ; used for iterating over a sequence / used when we know no of iterations in advance
+		it is mainly used for working with sequences
+	dir()
+	used to list all the attributes and functionalities of an object
+	if an object is iterable it has '__iter__'
+
+	range()
+	range is used to generate a sequence of numbers
+	range(start, stop, step)
+	start: starting value to generate sequence by default is 0 (included)
+	stop: ending value to stop generating the sequence (excluded)
+	step: increment the count default is 1
+
+	15th September
+	=============
+
+	Nested loops contain, for loop and while loop, where we have outer 
+	operator and inner operators
+
+	Jumping and branching statements
+
+	--> break: used to exit loop
+
+	--> continue: skip current iteration in loop
+
+	--> pass: its a placeholder and does nothing ; useful when we are 
+		developing things and not sure what to do right now but 
+		have a plan for it later on
