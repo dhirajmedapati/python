@@ -236,3 +236,8 @@ Note: to make apps more dynamic, giving the user to give input
 	--> pass: its a placeholder and does nothing ; useful when we are 
 		developing things and not sure what to do right now but 
 		have a plan for it later on
+
+--> strings
+	most widely used in python
+	string: sequence of characters enclosed in single or double quotes ( recommended) 
+			triple quotes (not recommended)
