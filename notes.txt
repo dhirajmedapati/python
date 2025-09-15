@@ -375,3 +375,15 @@ September 11th
 	stop: ending value to stop generating the sequence (excluded)
 	step: increment the count default is 1
 
+15th September
+================
+
+-> Nested Loops : Loops inside loops
+
+-> Branching / Jump Statements 
+
+	-> break : used to exit loop
+
+	-> continue : skip current iteration in loop
+
+	-> pass : used as Placeholder, does Nothing
