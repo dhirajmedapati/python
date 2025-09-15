@@ -387,3 +387,20 @@ September 11th
 	-> continue : skip current iteration in loop
 
 	-> pass : used as Placeholder, does Nothing
+
+
+-> Strings 
+
+	-> One of the most widely used data types in python
+
+	-> String : Sequence of characters enclosed in single or double quotes (recommended)
+				triple quotes (not recommended) 
+
+	-> Indexing : Python allows you to access individual character inside string using index number
+
+	-> text = "python"
+
+
+	 0  1  2   3  4  5 (Positive Index)
+	 p  y  t   h  o  n
+	-6 -5  -4 -3  -2 -1 (Negative Index)
