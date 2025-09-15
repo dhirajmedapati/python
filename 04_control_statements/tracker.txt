@@ -1,0 +1,41 @@
+# Student Grade Tracker 
+
+-> Collect Following Info From Student
+
+    -> Student ID
+    -> Student Name
+    -> Attendance
+    -> Total Score 
+
+-> Ask Student To enter Score 
+
+-> Repeatedly ask student to enter scores, till he says no 
+
+    Do you want to enter another score ? (yes/no)
+
+-> Calculate Total Scores (score1 + score 2 + .... yes)
+
+-> Give me the average score 
+
+-> Based On above average score Calculate Performance
+
+    -> 85 and above Excellent 
+    -> 70 to 84 Good
+    -> 50 to 69 Average 
+    -> Below 50 Fail
+
+-> Check Attendance Criteria 
+    -> Attendance less than 75 : WARNING LOW ATTENDANCE 
+                                 OK GOOD ATTENDANCE
+
+
+-> Finally display 
+
+    -> -> Student ID
+    -> Student Name
+    -> Attendance
+    -> Total score
+    -> Average Score 
+    -> Number Of Subjects 
+    -> Performance
+    -> Attendance Status 
