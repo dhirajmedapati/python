@@ -1,0 +1,15 @@
+# Build / Simulate an OTP Verification System
+
+-> Assume you have correct OTP already stored
+
+-> Ask user to input 4 digit OTP
+
+-> If OTP is correct display, Success 
+
+-> If OTP is incorrect display, Failed 
+
+-> If OTP is incorrect, decrease attempts count 
+
+-> After 3 incorrect attempts, 
+account locked try after 24 Hours
+
