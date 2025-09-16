@@ -404,3 +404,29 @@ September 11th
 	 0  1  2   3  4  5 (Positive Index)
 	 p  y  t   h  o  n
 	-6 -5  -4 -3  -2 -1 (Negative Index)
+
+15th September
+================
+
+-> Slicing 
+
+	-> extracting a portion of string from original string using index numbers
+		i.e access a range of characters in string
+
+	-> range(start, stop, step)
+
+	-> slice[start:stop:step] 
+
+		start: starting value to generate sequence by default is 0 (included)
+		stop: ending value to stop generating the sequence (excluded)
+		step: increment the count default is 1
+
+	-> Positive Slicing 
+
+	-> Negative Slicing
+
+	-> String Repetition using * operator
+
+	-> String Concatenation joining strings 
+	
+

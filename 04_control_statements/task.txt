@@ -1,0 +1,13 @@
+# Tasks to work
+
+-> Sum of First N Natural Numbers
+    -> Take a number n from the user and print the sum of first n natural numbers.
+    -> input is 3 then output should be 6 (1+2+3)
+    -> input is 10 then output should be 55 (1+2+3+...+10)
+
+
+-> Print numbers from 1 to 20 but skip multiples of 3
+    -> Output: 1 2 4 5 7 8 10 11 13 14 16 17 19 20
+
+-> Prime Number Check
+    -> Write a program to check if a number is prime or not
