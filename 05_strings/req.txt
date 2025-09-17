@@ -1,0 +1,41 @@
+# Enhanced Student Tracker 
+
+Student IDE
+    -> in previous if student id is negative or zero or text also it takes
+    -> Take positive numbers only excluding zero
+
+    -> 101 is valid
+
+    -> Generate System Student ID : EDIFY-PYTHON-101
+
+Student Name
+    -> Name should accept only alphabets not numbers or symbols
+    
+    -> Format name like below 
+
+        -> ravi krishna : Ravi Krishna
+    
+    -> Name should be at least 3 characters 
+
+        -> ravi is valid
+        -> ra is invalid 
+
+System Generated email
+
+    -> From given name, extract only first name 
+
+    -> Ravi Krishna -> ravi
+
+    -> System Gen Email -> ravi.id@edify.ai
+
+Course Fee 
+
+    -> Take actual course fee ensure it's positive value 
+
+    -> Ask student for coupon, 
+
+        -> PROMO -> 5000 discount 
+    
+    -> Calculate Actual Fee 
+
+Subject score should be in b/w 0 to 100
