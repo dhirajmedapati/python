@@ -24,11 +24,32 @@ if n>=1:
 else:
     print("it is not a natural")
 
-p = int(input("enter a number: "))
-for p in range(1,p+1):
-    if p/3 == 0:
+a = int(input("enter a number: "))
+for a in range(1,a+1):
+    if a%3 == 0:
         continue
-    print(p)
+    print(a)
+
+#prime numbers
+num = int(input("Enter a number: "))
+if num <=1:
+    print("its not a prime number ")
+else:
+    is_prime = True
+    for i in range(2,num) :
+        if num % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print(f"{num} is prime")
+    else:
+        print(f"{num} is not prime")
+
+
+
+
+
+
 
 
 
