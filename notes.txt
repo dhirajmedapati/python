@@ -429,4 +429,11 @@ September 11th
 
 	-> String Concatenation joining strings 
 	
+17th September
+================
 
+-> String Methods 
+
+-> Strings are Immutable (cannot change)
+
+-> Application to work with strings
