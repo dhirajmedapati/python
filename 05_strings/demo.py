@@ -131,4 +131,48 @@ else:
     print("ISD available only to USA & India")
     
 # check if email sync is possible
+source_email = input("Enter Your Email ID: ")
+dest_email = input("Enter Your Destination Email ID to Sync: ")
+if source_email.endswith("@gmail.com") and dest_email.endswith("@gmail.com"):
+    print("syncing accounts")
+else:
+    print("syncing failed, both should be same providers")
 
+# simulate gmail functionality
+email = input("Enter Your Email ID: ")
+format_email = email.strip().lower()
+print("User Given ID: "+email)
+print("Gmail Auto Format ID: "+format_email)
+
+# CSV file 
+# row 
+# Name,City,Age,Email,Role
+csv_line = "john,pune,21,john@gmail.com,developer"
+print("Original Data: ",csv_line)
+
+parsed_data = csv_line.split(",")
+print(parsed_data)
+
+print("Name: ",parsed_data[0])
+if int(parsed_data[2]) < 30:
+    print("Young Employee")
+    
+# find & replace / otp template / order confirmation template
+email_template = "Hello User, your order #{order_id} has been shipped"
+order_id = "OD-ID-90980"
+
+personalized_template = email_template.replace("{order_id}",order_id)
+print(personalized_template)
+
+# String Immutability
+text = "hello"
+print(text)
+
+text = "hi"
+print(text)
+
+# modify
+text = "hello"
+print(text)
+# text[0] = "H" # TypeError: 'str' object does not support item assignment
+print(text)
