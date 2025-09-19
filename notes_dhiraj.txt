@@ -241,3 +241,10 @@ Note: to make apps more dynamic, giving the user to give input
 	most widely used in python
 	string: sequence of characters enclosed in single or double quotes ( recommended) 
 			triple quotes (not recommended)
+
+19th september: 
+
+Single data types, has only 1 value assigned to a variable, etc
+complex data types has multiple values assigned to it, like a list of sort 
+
+in python, we have to store more than one value, we have following classes. 
