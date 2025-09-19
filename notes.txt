@@ -437,3 +437,69 @@ September 11th
 -> Strings are Immutable (cannot change)
 
 -> Application to work with strings
+
+19th September
+================
+
+-> Simple Data Types : One Value
+
+	-> data = 10
+
+-> Complex Data Types : Multiple Values
+
+	-> data = [10,20,30,40,50]
+
+-> In python we to store more than one value, we have following Classes 
+
+	-> List 
+	-> Tuple
+	-> Dictionary
+	-> Set
+
+-> Lists 
+
+	-> List is a Data Structure which allows you to stores multiples values in a single variable
+
+	-> Lists are represented using [] or using list class
+
+	-> Accessing Data in lists 
+
+		-> Like in Strings, for lists we have Index and it starts from Zero
+
+		-> Has both positive and negative index 
+
+		-> Indexing is same as strings 
+
+		-> Slicing is same as strings 
+
+		-> nums = [10,20,30,40,50]
+
+			0. 1  2. 3. 4
+			10,20,30,40,50
+			-5 -4 -3 -2	-1
+
+	-> slice[start:stop:step] 
+
+		start: starting value to generate sequence by default is 0 (included)
+		stop: ending value to stop generating the sequence (excluded)
+		step: increment the count default is 1
+
+	-> Use Operators 
+
+	-> Use Conditionals
+
+	-> Use Loops 
+
+	-> Duplicates Allowed 
+
+	-> List Methods / List operations
+
+	-> List Characteristics
+	
+		-> Ordered 
+
+		-> Mutable (add / remove)
+
+		-> Duplicates Allowed 
+
+		-> Different Data Types Allowed -> Yes 
