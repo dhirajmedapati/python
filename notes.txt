@@ -503,3 +503,93 @@ September 11th
 		-> Duplicates Allowed 
 
 		-> Different Data Types Allowed -> Yes 
+
+23rd September
+================
+
+	-> Tuples is a Data Structure which allows you to stores multiples values in a single variable
+
+	-> Tuples are represented using ( ) or using tuple class
+
+	-> Accessing Data in Tuples 
+
+		-> Like in Strings, for Tuples we have Index and it starts from Zero
+
+		-> Has both positive and negative index 
+
+		-> Indexing is same as strings 
+
+		-> Slicing is same as strings 
+
+		-> nums = (10,20,30,40,50)
+
+			0. 1  2. 3. 4
+			10,20,30,40,50
+			-5 -4 -3 -2	-1
+
+	-> slice[start:stop:step] 
+
+		start: starting value to generate sequence by default is 0 (included)
+		stop: ending value to stop generating the sequence (excluded)
+		step: increment the count default is 1
+
+	-> Use Operators 
+
+	-> Use Conditionals
+
+	-> Use Loops 
+
+	-> Duplicates Allowed 
+
+	-> Tuples Methods / Tuples operations
+
+	-> Tuples Characteristics
+	
+		-> Ordered 
+
+		-> Immutable (cannot modify)
+
+		-> Duplicates Allowed 
+
+		-> Different Data Types Allowed -> Yes 
+
+	-> Tuples are READ ONLY LISTS 
+
+
+-> Dictionaries (Mapping Type Of Data)
+
+	-> Dictionaries is a Data Structure which allows you to stores multiples key values in a single variable
+
+		-> key:value (item / pair)
+
+	-> Dictionaries are represented using { } or using dict class
+
+	-> NO Indexing
+
+	-> NO Slicing 
+
+	-> Rules 
+
+		-> keys should be immutable data only
+		-> values can be any object 
+
+		-> key should not be duplicated(duplicates will be overridden)
+
+		-> More than 90% of time, keys will be strings 
+	
+	-> Dictionaries Characteristics
+	
+		-> Ordered 
+
+		-> Mutable (can modify)
+
+		-> Duplicates Allowed 
+
+			-> values can be duplicated 
+			-> key will not allow duplicated, will override
+
+		-> Different Data Types Allowed -> Yes 
+
+			-> key should be immutable
+			-> values can be any data 
+			
