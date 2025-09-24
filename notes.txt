@@ -593,3 +593,46 @@ September 11th
 			-> key should be immutable
 			-> values can be any data 
 			
+24th September
+==============
+
+-> Sets is a Data Structure which allows you to stores multiples values in a single variable
+
+	-> Sets are represented using { } or using set class
+
+	-> dict = {1:10,2:20}
+
+	-> set = {10,20,30}
+
+	-> NO Indexing
+
+	-> NO Slicing 
+
+	-> Rules 
+
+		-> Sets are UUU
+
+			-> U : Unordered 
+			-> U : Unique (No Duplicates)
+			-> U : Unindex (as no order)
+
+	-> Sets are used especially for set related mats operations
+
+		-> Union
+		-> Intersection
+		-> Difference 
+		-> etc
+
+	-> Set Characteristics
+	
+		-> Unordered (no insertion order)
+
+		-> Mutable (can modify)
+
+		-> Duplicates Not Allowed 
+
+		-> Different Data Types Allowed -> Yes 
+	
+	-> Frozen Set : Immutable set 
+
+		
