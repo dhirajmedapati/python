@@ -635,4 +635,16 @@ September 11th
 	
 	-> Frozen Set : Immutable set 
 
-		
+
+29th September
+==============
+
+	-> Student Management System Using Complex Data Types
+
+	-> This Application will simulate CRUD operations that we perform on Databases using Web App
+
+	-> As of now it's a Console Based Application
+
+	-> If Fullstack Developer Handles the above requirement
+
+		-> Django (Web Application)
