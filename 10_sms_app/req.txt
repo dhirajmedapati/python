@@ -1,0 +1,72 @@
+# Implement Student/Product/Employee Management System 
+
+-> Create a Student Management System, which helps administrators to manage their
+    Student records like Score, Marks etc 
+
+-> System Setup
+
+    -> Create System Info, which is fixed and it shouldn't be modified
+
+        -> System Name : Edify Student Management Portal
+        -> Version : v1
+        -> Year : 2025
+        -> Institution : Edify University 
+
+    -> Show Above Info at when Application starts
+
+    -> Cerate Admin Contact Info, which is fixed and it shouldn't be modified
+
+        -> Email : admin@edify.edu 
+        -> Phone : 9890383883
+        -> Room No : 201
+
+    -> Show Above Info at when Application Exits 
+
+-> Core functionalities
+
+    -> Adding Student (CRUD - C - CREATE)
+
+        -> Prompt for Student ID and check if it already exists(ID's should be unique)
+        -> Get Student Name and Format it using (Ravi Krishna)
+        -> Store Multiple Scores 
+            -> Accept scores one by one until the user types done
+            -> Validate scores entered, should be in between 0-100
+            -> Scores can be duplicates 
+        -> Store Skills 
+            -> Accept skills one by one until the user types done
+            -> Skills cannot be duplicates(Unique Skills)
+
+            students[student_id] = {
+                "name": name,
+                "scores": list,
+                "skills": set
+            }
+
+    -> Updating Student (CRUD - U - UPDATE)
+
+        -> Search Student By ID
+        -> Update Name Of Student, if ID exists 
+        -> If Student ID doesn't exist, show appropriate error Student Not Found 
+
+    -> Deleting Student (CRUD - D - DELETE)
+
+        -> Remove Student By ID
+        -> If Student ID doesn't exist, show appropriate error Student Not Found 
+
+    -> List All Students (CRUD - R - READ)
+
+        -> Display all the students information in a formatted way 
+        
+        -> For each student show
+            -> ID
+            -> Name
+            -> All Scores 
+            -> Average Score
+            -> Highest Score 
+            -> Lowest Score 
+            -> All Skills 
+            -> Count Of Skills 
+
+    -> Exit System 
+
+        -> When system exits, show admin details to contact 

@@ -593,3 +593,146 @@ September 11th
 			-> key should be immutable
 			-> values can be any data 
 			
+24th September
+==============
+
+-> Sets is a Data Structure which allows you to stores multiples values in a single variable
+
+	-> Sets are represented using { } or using set class
+
+	-> dict = {1:10,2:20}
+
+	-> set = {10,20,30}
+
+	-> NO Indexing
+
+	-> NO Slicing 
+
+	-> Rules 
+
+		-> Sets are UUU
+
+			-> U : Unordered 
+			-> U : Unique (No Duplicates)
+			-> U : Unindex (as no order)
+
+	-> Sets are used especially for set related mats operations
+
+		-> Union
+		-> Intersection
+		-> Difference 
+		-> etc
+
+	-> Set Characteristics
+	
+		-> Unordered (no insertion order)
+
+		-> Mutable (can modify)
+
+		-> Duplicates Not Allowed 
+
+		-> Different Data Types Allowed -> Yes 
+	
+	-> Frozen Set : Immutable set 
+
+
+29th September
+==============
+
+	-> Student Management System Using Complex Data Types
+
+	-> This Application will simulate CRUD operations that we perform on Databases using Web App
+
+	-> As of now it's a Console Based Application
+
+	-> If Fullstack Developer Handles the above requirement
+
+		-> Django (Web Application)
+
+
+6th October
+===========
+
+	-> Functional Programming
+
+	-> Function 
+
+		-> A function is block of code, which performs some task 
+
+	-> Why Function ?
+
+		-> Functions can help break down complex problems into simpler and smaller manageable tasks 
+
+		-> You can call a function multiple times, which avoid code Repetition => Code Reusability 
+
+	-> Syntax
+
+		def function_name():
+			statements	
+
+	-> Define Function & Call Function
+
+		function_name()
+
+	-> Function with parameters 
+
+		-> Using parameters with functions, we can pass Dynamic Inputs for doing tasks 
+
+		def function_name(parameter1, parameter2, ....):
+			statements	
+		
+		function_name(argument1, argument2, ....)
+
+	-> Function Based On arguments
+
+	-> In python we can pass arguments to a function in 5 different ways 
+
+		-> Positional arguments
+
+		-> Keyword arguments
+
+		-> Default arguments
+
+		-> Arbitrary Positional arguments (*args)
+
+		-> Arbitrary Keyword arguments (**kwargs)
+
+
+	-> Positional arguments
+
+		-> These are passed to functions in the exact order as defined in the function signature 
+
+		-> Order / Position matters, the first argument you pass goes to the first parameter, second argument
+			we pass goes to the second parameter and so on 
+
+	-> Keyword arguments
+
+		-> These are passed to functions explicitly by specifying name
+
+		-> Order doesn't matter any more 
+
+		-> Improves Code Readability especially when multiple parameters are there 
+	
+	-> Default arguments
+
+		-> Passing default values to the argument in function signature 
+
+		-> If we pass values to the default argument at function call, 
+			default values will be overridden with new values passed 
+
+	-> Arbitrary Positional arguments (*args)
+
+		-> Allows your function to accept any number of arguments 
+
+		-> Used when you don't know how many arguments a function might receive 
+
+		-> * means any => all arguments are captured in a Tuple
+
+	-> Arbitrary Keyword arguments (**kwargs)
+
+		-> Allows your function to accept any number of keyword arguments 
+
+		-> Used when you don't know how many arguments a function might receive 
+
+		-> ** means any => all arguments are captured in a Dictionary
+
