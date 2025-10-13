@@ -823,3 +823,46 @@ September 11th
 
 
 			-> sorted()
+
+13th October
+============
+
+	-> Modules 
+
+		-> A module is simply a python file that contains 
+
+			-> variables 
+			-> statements 
+			-> functions 
+			-> classes 
+			-> etc
+	
+	-> Module Types 
+
+		-> Inbuilt Modules 
+
+			-> Provided as part of standard python library
+
+		-> User Defined Modules 
+
+			-> Created by user itself
+
+		-> External Modules 
+
+			-> Provided by 3rd party vendors 
+			-> download and use - https://pypi.org/
+			-> download using pip (python package manager)
+			-> pip install <package> - win
+			-> pip3 install <package> - win
+
+	-> Functions : Reusability for a block of code
+	-> Modules : Reusability for a file 
+	-> Packages : Reusability for a folder  
+
+	-> Package 
+
+		-> A folder with multiple modules (multiple files)
+
+		-> we need special file __init__.py (start up config)
+
+		-> to use package we go with folder name 
