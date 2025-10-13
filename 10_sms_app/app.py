@@ -70,11 +70,25 @@ while True:
                     
         
     elif choice == "2":
-        print("Performing Choice 2 Operation")    
+        print("Performing Choice 2 Operation")
+        student_id = input("Enter ID to Update: ")
+        if student_id in students:
+            new_name = input("enter new name: ").title()
+            students[student_id] ["name"] = new_name
+            print("Student Name updated sucessfully")
+        else:
+            print("student not found")
     elif choice == "3":
         print("Performing Choice 3 Operation")
+        student_id = input("Enter ID to Delete: ")
+        if student_id in students:
+            del students[student_id]
+            print("Student Deleted Successfully")
+        else:
+            print("student id not found")
     elif choice == "4":
         print("Performing Choice 4 Operation")
+        
     elif choice == "5":
         print("Performing Choice 5 Operation")
         break
