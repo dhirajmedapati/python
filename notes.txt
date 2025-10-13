@@ -736,3 +736,90 @@ September 11th
 
 		-> ** means any => all arguments are captured in a Dictionary
 
+
+9th October
+===========
+
+	-> return in functions
+
+		-> "return" keyword in python is used to give appropriate response 
+		when a function is called 
+
+		-> when we don't use return, by default a function returns none 
+
+		-> when using return make sure it's the last statement to be executed
+
+		-> if you have multiple return statements, first will be considered 
+
+	-> Scope Of Variables in functions
+
+		-> Scope : Scope indicates accessibility of an variable
+
+			-> Local Scope
+
+			-> Global Scope 
+
+		-> Local Scope
+
+			-> A local variable is declared inside the function
+			-> it's lifetime exists only within the function, while the functions runs
+			-> local variables cannot be used outside the Functions
+
+		-> Global Scope
+
+			-> A global variable is declared outside the function
+			-> it's lifetime exists outside the function as well
+			-> global variable can be accessed inside a function too
+			-> if global variable has same name as local, first preference goes to local 
+				NOTE : To access global variable, we use globals()
+			-> if you want to change a global variable inside the function, we cant by default
+
+	-> Types Of Functions 
+
+		-> Built in functions 
+
+			-> predefine part of standard python library 
+			-> no need to create again using def keyword
+			-> print(), id(), len(), dir(), input() etc 
+
+		-> User defined functions
+
+			-> user defined functions are created based on custom requirements 
+			-> created using def keyword
+
+		-> Lambda functions 
+
+			-> a lambda function is a small, online line function with no name i.e Anonymous functions
+
+			-> NOTE : used for single line expressions 
+
+			-> we use "lambda" keyword to work with lambda functions 
+
+			-> in lambda functions, result of expression is automatically returned
+
+			-> syntax 
+
+				lambda arguments: expression 
+
+		-> Higher Order Functions 
+
+			-> Passing function as an argument to function
+
+			-> map()
+
+				-> Applies a function to each item in the iterable
+
+				-> syntax
+
+					map(function, iterable)
+
+			-> filter()
+
+				-> Filters the items in the iterable, based on condition 
+
+				-> syntax 
+
+					filter(function, iterable)
+
+
+			-> sorted()
