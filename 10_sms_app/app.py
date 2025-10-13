@@ -75,8 +75,34 @@ while True:
         print("Performing Choice 3 Operation")
     elif choice == "4":
         print("Performing Choice 4 Operation")
+        print("Listing Students")
+        # {'101': {'name': 'Ravi', 'scores': [90, 90], 'skills': {'git', 'python'}}}
+        for sid, data in students.items():
+            name = data["name"]
+            scores = data["scores"]
+            
+            avg = sum(scores) / len(scores)
+            high_score = max(scores)
+            low_score = min(scores)    
+            
+            skills = data["skills"]
+            skill_count = len(skills)
+            
+            print(f"ID: {sid}" )
+            print(f"Name: {name}" )
+            print(f"Scores: {scores}" )
+            print(f"Average: {avg}" )
+            print(f"High Score: {high_score}" )
+            
+            
     elif choice == "5":
         print("Performing Choice 5 Operation")
+        # Display Admin Info at Closing
+        print("="*50)
+        print(f"        Contact No {ADMIN_INFO[0]}")
+        print(f"        Email {ADMIN_INFO[1]}")
+        print("="*50)
+
         break
     else:
         print("Invalid Choice, only (1-5) Operations Supported")
