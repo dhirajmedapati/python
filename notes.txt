@@ -866,3 +866,59 @@ September 11th
 		-> we need special file __init__.py (start up config)
 
 		-> to use package we go with folder name 
+
+16th October
+============
+
+	-> File Operations 
+
+		-> CRUD 
+
+			-> CREATE 
+			-> READ 
+			-> UPDATE 
+			-> DELETE 
+
+	-> Earlier all the activities we did are in non-persistent storage (RAM)
+
+		-> Temporary 
+
+	-> Now we want to work with persistent storage (HDD)
+
+		-> Permanent 
+
+	-> To work with files python has provided 
+
+		-> open() with modes 
+
+			-> r - read : read the data 
+			-> w - write : overwrites the data 
+			-> a - append : add to existing data 
+
+	-> syntax - 1
+
+		open("file_path","mode"):
+			statements 
+
+		NOTE : File is not closed after performing operations 
+
+	-> syntax - 2 (recommended)
+
+		with open("file_path","mode") as var:
+			statements 
+		
+		NOTE : File is closed automatically, after performing operations 
+	
+	-> Directories Management 
+
+		-> create a folder / Directory 
+
+			-> os module 
+
+	-> Working CSV Files 
+
+		-> Very commonly used in data oriented domain
+
+		-> python has provided "csv" module in standard library 
+
+		
