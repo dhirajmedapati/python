@@ -921,4 +921,11 @@ September 11th
 
 		-> python has provided "csv" module in standard library 
 
-		
+21st October
+============		
+
+	-> Working with "json" data using "json" module 
+
+	-> json module is part of standard python library
+
+	
