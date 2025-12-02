@@ -1,0 +1,67 @@
+SQL - structred query language
+
+DDL - Data Definition Language
+DML - Data manipulation (modify) language 
+DCL - Data Control Language
+TCL - Transaction Control Language
+
+Everything is connected via table format language and is communicated via rows and columns of the table.
+
+
+DDL - Data Definition Language
+
+Create - can create any database, or table (i.e. new table or even creating rows and columns)
+Alter - renaming the things which are already created or add columns or rows to an existing table
+Drop - remove the table or column or row or a record but permanently 
+Truncate - Remove a row or a column from a table directly with one command ( table headers will be present, values will be removed)
+
+
+DML - Data Manipulation Language 
+Insert - add a new record to the table
+Update - update a particular record in the table (more like find and replace in the table)
+Delete - we can delete the entire row or a column at a time
+
+DCL - Data Control language
+
+Grant - Give access to the user to a specific row or coloumn or the table as required
+Revoke - remove access to the users who already have an existing access to the table / rows / columns
+
+TCL - Transaction Control Language
+Save point - assign few blocks of data to a particular name, so that if we update the save point it will go and update the assigned points
+Commit - confirm the changes that we made
+Rollback - revert back the last made changes, cannot perform rollback twice
+
+
+Join
+
+Inner join - Common thing between 2 tables
+outer join - other parts of the table which is not common between the two table
+Left join - only the data present in table A, which is not present in Table B nor the common thing between A and B
+Right join - only the data present in table b
+Cross join is like mapping between tables based on the information
+Self join is mapping the data within the same table 
+
+Functions: 
+Count: 
+    Min : 
+    Max : 
+    Sum : 
+    Average : 
+
+Statements:
+    Select : select particular field level
+    From: to select the entire data
+
+Data Types:
+    ID
+    string : alphabets or alphanumeric
+        Char - limits 25 letters are accepted in this input
+        var char - unlimited letters above 25 letters in an input
+        n var char - change the native language of the input
+    integer : whole numbers
+        Big integer
+        Small integer
+    boolean : true or false, check or uncheck
+    decimal : fractions
+
+
