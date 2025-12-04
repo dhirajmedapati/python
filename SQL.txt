@@ -65,3 +65,35 @@ Data Types:
     decimal : fractions
 
 
+2nd december 2025
+
+Joins
+
+Innter join, Left join, outer join, right join
+
+Joins
+create database dhirajjoins
+create table edify (name char(20), phone int, email char(20), salary int)
+insert into edify values('dhiraj', 47047810, 'dhiraj@gmail.com', 100500)
+insert into edify values('medapati', 77088660, 'medapatij@gmail.com', 750000)
+
+select * from edify
+create table employee (empid char(20), cname char(20), cemail char(20), salary int)
+insert into employee values('D042', 'dhirajjj', 'dhirajjjj@gmail.com', 500500)
+insert into employee values('A042', 'ABC', 'ABC@gmail.com', 900400)
+select * from employee
+
+select edify.salary, edify.phone, employee.salary, employee.empid from edify JOIN employee on edify.salary = employee.salary;
+
+
+Conditions
+and
+or
+not
+like
+where
+limit
+as
+wild char --> * _ %
+IN
+
